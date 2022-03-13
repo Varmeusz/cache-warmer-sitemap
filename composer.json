@@ -1,18 +1,19 @@
 {
   "name": "varmeusz/cache-warmer-sitemap",
   "description": "Sitemap for cache warmer application",
-  "minimum-stability": "stable",
+  "minimum-stability": "dev",
   "license": "proprietary",
   "authors": [
     {
       "name": "varmeusz"
     }
   ],
-  "require": {
-  },
   "autoload": {
     "psr-4": {
       "Varmeusz\\CacheWarmerSitemap\\": "src/"
     }
+  },
+  "require": {
+    "ext-simplexml": "*"
   }
 }
